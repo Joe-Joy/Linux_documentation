@@ -25,13 +25,13 @@ to be copied, the second is where to copy.
 
 **mv** (move) => Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use “mv text new”.
 
-**locate** => The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file. ~/Desktop$ locate test.txt
+**locate** => The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file. **~/Desktop$ locate test.txt**
 
-**echo** => The "echo" command helps us insert some data into a file. ~/Desktop$ echo ashli, joe >> test.txt
+**echo** => The "echo" command helps us insert some data into a file. **~/Desktop$ echo ashli, joe >> test.txt**
 
-**cat** => Use the cat command to display the contents of a file. It is usually used to easily view programs. ~/Desktop$ cat test.txt
+**cat** => Use the cat command to display the contents of a file. It is usually used to easily view programs. **~/Desktop$ cat test.txt**
 
-**cat (filename) | grep (selected word)** => to show the selected file content and highlighted a ashli name within a file
+**cat <filename> | grep <selected word>** => to show the selected file content and highlighted a ashli name within a file
 
 **Kill -9 PID** => The most common command to terminate a process is kill command. You need to know the PID of the process you want to terminate.
 
@@ -39,7 +39,7 @@ to be copied, the second is where to copy.
 
 **sudo** => A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.
 
-**sudo bash** => You can enter the root line <span style="color: green">root@HP-EliteBook-8570w:/home/crash#</span>
+**sudo bash** => You can enter the root line **root@HP-EliteBook-8570w:/home/crash#**
 
 **sudo passwd** => Change in the new root password.
 
@@ -57,17 +57,17 @@ to be copied, the second is where to copy.
 
 **name -a** => prints most of the information about the system. This prints the kernel release date, version, processor type, etc.
 
-**sudo apt-get install (update && upgrade)** => to update and upgrade the system;
+**sudo apt-get install <update && upgrade>** => to update and upgrade the system;
 
 **hostname** => Use hostname to know your name in your host or network.
 
 **hostname -I** => your IP address in your network.
 
-**getfacl (filename)** => getfacl displays the file name, owner, the group, and the Access Control List (ACL). If a directory has a default ACL, getfacl also displays the default ACL.
+**getfacl <filename>** => getfacl displays the file name, owner, the group, and the Access Control List (ACL). If a directory has a default ACL, getfacl also displays the default ACL.
 
-**setfacl -m group::rwx or rw- or --- (filename) (manual ACL)** => We can add ACL to these files using setfacl. ACL – Access Control List.
+**setfacl -m group::rwx or rw- or --- <filename> (manual ACL)** => We can add ACL to these files using setfacl. ACL – Access Control List.
 
-**shutdown -r <time>** => With option r, system will shutdown immediately and automatically reboot. sudo shutdown -r 3
+**shutdown -r <time>** => With option r, system will shutdown immediately and automatically reboot. **sudo shutdown -r 3**
 
 **shutdown -P <time>** => To power-off the system option P is used.
 
