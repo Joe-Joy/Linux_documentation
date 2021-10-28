@@ -31,7 +31,7 @@ to be copied, the second is where to copy.
 
 **cat** => Use the cat command to display the contents of a file. It is usually used to easily view programs. **~/Desktop$ cat test.txt**
 
-**cat <filename> | grep <selected word>** => to show the selected file content and highlighted a ashli name within a file
+**cat (filename) | grep (selected word)** => to show the selected file content and highlighted a ashli name within a file
 
 **Kill -9 PID** => The most common command to terminate a process is kill command. You need to know the PID of the process you want to terminate.
 
@@ -57,19 +57,21 @@ to be copied, the second is where to copy.
 
 **name -a** => prints most of the information about the system. This prints the kernel release date, version, processor type, etc.
 
-**sudo apt-get install <update && upgrade>** => to update and upgrade the system;
+**sudo apt-get install (update && upgrade)** => to update and upgrade the system;
 
 **hostname** => Use hostname to know your name in your host or network.
 
 **hostname -I** => your IP address in your network.
 
-**getfacl <filename>** => getfacl displays the file name, owner, the group, and the Access Control List (ACL). If a directory has a default ACL, getfacl also displays the default ACL.
+**ip a** => find the ip address.
 
-**setfacl -m group::rwx or rw- or --- <filename> (manual ACL)** => We can add ACL to these files using setfacl. ACL – Access Control List.
+**getfacl (filename)** => getfacl displays the file name, owner, the group, and the Access Control List (ACL). If a directory has a default ACL, getfacl also displays the default ACL.
 
-**shutdown -r <time>** => With option r, system will shutdown immediately and automatically reboot. **sudo shutdown -r 3**
+**setfacl -m group::rwx or rw- or --- (filename) (manual ACL)** => We can add ACL to these files using setfacl. ACL – Access Control List.
 
-**shutdown -P <time>** => To power-off the system option P is used.
+**shutdown -r (time)** => With option r, system will shutdown immediately and automatically reboot. **sudo shutdown -r 3**
+
+**shutdown -P (time)** => To power-off the system option P is used.
 
 **sudo mount /dev/sdd1 /mnt** => to mount into the disk
 
