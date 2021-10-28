@@ -6,7 +6,7 @@
 
 **cd** => Change directory.
 
-**pwd** Print working directory (exact directory).
+**pwd** -> Print working directory (exact directory).
 
 **mkdir** When you need to create a folder or a directory.
 
