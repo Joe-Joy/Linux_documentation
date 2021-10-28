@@ -39,7 +39,7 @@ to be copied, the second is where to copy.
 
 **sudo** => A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.
 
-**sudo bash** => You can enter the root line root@HP-EliteBook-8570w:/home/crash#
+**sudo bash** => You can enter the root line <span style="color: green">root@HP-EliteBook-8570w:/home/crash#</span>
 
 **sudo passwd** => Change in the new root password.
 
