@@ -63,6 +63,7 @@
 |chmod g+x (filename)|Execute(x) permission **group** in test.txt(your filename) filename.|
 |chmod o-r (filename)|Remove read permission **others** in text.txt(your filename) filename.|
 |chmod u-x (filename)|Remove execute permission on **user** in test.test.txt(your filename) filename.|
+|chmod 777 filename| To give a permission read(4), write(2), execute(1).|
 |vi (filename)|vim file created.|
 |:q!|Exit the vim file.|
 |:wq!|Save and exit the vim file.|
