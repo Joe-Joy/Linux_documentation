@@ -1,6 +1,6 @@
 ## LINUX COMMANDS DETAILS:-
 
-| command | descrtiption                                                             | command Excercise |
+| command | descrtiption                                                             | Excercise |
 | ------- | ------------------------------------------------------------------------ |-------------------|
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
 | ls -la|List out the items one by one. You can see all the hidden files|
@@ -17,7 +17,7 @@
 |locate|The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.| **~/Desktop$ locate test.txt**|
 |echo|The "echo" command helps us insert some data into a file. |**~/Desktop$ echo ashli, joe >> test.txt**|
 |cat|Use the cat command to display the contents of a file. It is usually used to easily view programs. |**~/Desktop$ cat test.txt**|
-|cat (filename) I grep (selected word)|to show the selected file content and highlighted a ashli name within a file|
+|cat (filename) I grep (selected word)|Highlighted a selected word in selected file.|
 |Kill -9 PID|The most common command to terminate a process is kill command. You need to know the PID of the process you want to terminate.|
 |nano, vi, jed|nano and vi are already installed text editors in the Linux command line. The nano command is a good text editor that denotes keywords with color and can recognize most languages|
 |sudo| A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.|
