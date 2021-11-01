@@ -1,6 +1,6 @@
 # LINUX COMMANDS DETAILS:-
 
-| command | descrtiption                                                             |
+| command | descrtiption                                                             | command Excercise |
 | ------- | ------------------------------------------------------------------------ |
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
 | ls -la|List out the items one by one. You can see all the hidden files|
@@ -14,10 +14,10 @@
 |man & --help|To know more about a command and how to use it, use the man command. It shows the manual pages of the command.|
 |cp (copy)|Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the to be copied, the second is where to copy.|
 |mv (move)|Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use “mv text new”.|
-|locate|The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file. **~/Desktop$ locate test.txt**|
-|||
-|||
-|||
+|locate|The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.| **~/Desktop$ locate test.txt**|
+|echo|The "echo" command helps us insert some data into a file. |**~/Desktop$ echo ashli, joe >> test.txt**|
+|cat|Use the cat command to display the contents of a file. It is usually used to easily view programs. **~/Desktop$ cat test.txt**|
+|cat (filename) | grep (selected word)|to show the selected file content and highlighted a ashli name within a file|
 |||
 |||
 
@@ -25,11 +25,11 @@
 
 **** => 
 
-**echo** => The "echo" command helps us insert some data into a file. **~/Desktop$ echo ashli, joe >> test.txt**
+**** => 
 
-**cat** => Use the cat command to display the contents of a file. It is usually used to easily view programs. **~/Desktop$ cat test.txt**
+**** => 
 
-**cat (filename) | grep (selected word)** => to show the selected file content and highlighted a ashli name within a file
+**** => 
 
 **Kill -9 PID** => The most common command to terminate a process is kill command. You need to know the PID of the process you want to terminate.
 
