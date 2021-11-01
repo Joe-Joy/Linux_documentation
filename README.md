@@ -1,6 +1,6 @@
-**LINUX COMMANDS DETAILS:-**
+# LINUX COMMANDS DETAILS:-
 
-**ls** => Use the "ls" command to know what files are in the directory you are in.
+1.**ls** => Use the "ls" command to know what files are in the directory you are in.
 
 **ls -la** => List out the items one by one. You can see all the hidden files
 
@@ -49,7 +49,7 @@ to be copied, the second is where to copy.
 
 **du** => Use du to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command df and the name of the folder or file.
 
-**ls -lah** => to view the file sizes of all the files in a folder.
+**ls -lh** => to view the file sizes of all the files in a folder.
 
 **zip, unzip** => Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
 
@@ -77,6 +77,32 @@ to be copied, the second is where to copy.
 
 **sudo umount /mnt** => to unmount the disk
 
-**lsblk** => to show the disk in the server
+**lsblk** => to see all the disks and partitions on your system.
 
 **blkid** => to gather UUID of the partition. UUID- Univeresal Unique Identification.
+
+**su -** => open up the new shell of directory. **ashli**@Hp-EliteBook-8570w:~$
+
+**chmod g+x (filename)** => execute(x) permission **group** in test.txt(your filename) filename.
+
+**chmod o-r (filename)** => remove read permission **others** in text.txt(your filename) filename.
+
+**chmod u-x (filename)** => remove execute permission on **user** in test.test.txt(your filename) filename.
+
+**sudo apt-get remove (package_name)** => to remove the packages using this commands.
+
+**sudo apt install package_name** => to install the new packeages.
+
+**service --status-all** => List all services in Ubuntu.
+
+**sudo systemctl stop service_name** => stop the service.
+
+**sudo systemctl start service_name** => start the service.
+
+**sudo systemctl restart service_name** => restart the service.
+
+**sudo systemctl status service_name** => status of the service details.
+
+**df -h** => shows disk space in human-readable format.
+
+**df -i** => shows used and free inodes.
