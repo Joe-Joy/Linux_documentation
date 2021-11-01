@@ -4,15 +4,20 @@
 | ------- | ------------------------------------------------------------------------ |
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
 | ls -la|List out the items one by one. You can see all the hidden files|
+|cd|Change directory.|
+|pwd|Print working directory (exact directory).|
+|mkdir|When you need to create a folder or a directory.|
+|||
+|||
+|||
+|||
+|||
 
-> 1.**ls** => Use the "ls" command to know what files are in the directory you are in.
+**cd** => 
 
-> **ls -la** => 
-**cd** => Change directory.
+**** => 
 
-**pwd** => Print working directory (exact directory).
-
-**mkdir** => When you need to create a folder or a directory.
+**** => 
 
 **rmdir** => Can only be used to delete an empty directory.
 
