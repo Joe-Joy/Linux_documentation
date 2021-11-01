@@ -3,11 +3,11 @@
 | command | descrtiption                                                             |
 | ------- | ------------------------------------------------------------------------ |
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
+| ls -la|List out the items one by one. You can see all the hidden files|
 
 > 1.**ls** => Use the "ls" command to know what files are in the directory you are in.
 
-> **ls -la** => List out the items one by one. You can see all the hidden files
-
+> **ls -la** => 
 **cd** => Change directory.
 
 **pwd** => Print working directory (exact directory).
