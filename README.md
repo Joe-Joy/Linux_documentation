@@ -6,14 +6,14 @@
 | ls -la|List out the items one by one. You can see all the hidden files|
 |cd|Change directory.|
 |pwd|Print working directory (exact directory).|
-|mkdir|When you need to create a folder or a directory.|
-|rmdir|Can only be used to delete an empty directory.|
-|rm| rm command to delete files and directories.|
+|mkdir|When you need to create a folder or a directory.| mkdir (filename)|
+|rmdir|Can only be used to delete an empty directory.| rmdir (filename)|
+|rm| rm command to delete files and directories.| 
 |rm -r|delete just the directory. It deletes both the folder and the files it contains when using only the rm command.|
-|touch|The touch command is used to create a file.|
+|touch|The touch command is used to create a file.| rm -r (folder name)|
 |man & --help|To know more about a command and how to use it, use the man command. It shows the manual pages of the command.|
-|cp (copy)|Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the to be copied, the second is where to copy.|
-|mv (move)|Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use “mv text new”.|
+|cp (copy)|Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the to be copied, the second is where to copy.| cp (filename1) (filename2)|
+|mv (move)|Use the mv command to move files through the command line. We can also use the mv command to rename a file. For example, if we want to rename the file “text” to “new”, we can use “mv text new”.|mv (filename1) (filename2)|
 |locate|The locate command is used to locate a file in a Linux system, just like the search command in Windows. This command is useful when you don't know where a file is saved or the actual name of the file.| **~/Desktop$ locate test.txt**|
 |echo|The "echo" command helps us insert some data into a file. |**~/Desktop$ echo ashli, joe >> test.txt**|
 |cat|Use the cat command to display the contents of a file. It is usually used to easily view programs. |**~/Desktop$ cat test.txt**|
