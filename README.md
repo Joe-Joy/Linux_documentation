@@ -23,6 +23,10 @@
 |sudo| A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.|
 |sudo bash|You can enter the root line |**root@HP-EliteBook-8570w:/home/crash#**|
 |su -|open up the new shell of directory.| **ashli**@Hp-EliteBook-8570w:~$|
+|ssh crash@(ip address)|To Change root user to normal user.|
+|sudo su|To change normal user to root user.|
+|crash@HP-EliteBook-8570w:~**$**|Normal User.|
+|root@HP-EliteBook-8570w:/home/crash/**#**|Root User.|
 |sudo passwd|Change in the new root password.|
 |df|Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition and their used/available space in % and in Kbs.|
 |df -m| Disk file system want it shown in megabytes.|
@@ -59,6 +63,7 @@
 |chmod g+x (filename)|Execute(x) permission **group** in test.txt(your filename) filename.|
 |chmod o-r (filename)|Remove read permission **others** in text.txt(your filename) filename.|
 |chmod u-x (filename)|Remove execute permission on **user** in test.test.txt(your filename) filename.|
-
-
+|vi (filename)|vim file created.|
+|:q!|Exit the vim file.|
+|:wq!|Save and exit the vim file.|
 
