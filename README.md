@@ -3,17 +3,11 @@
 | command | descrtiption                                                             | command Excercise |
 | ------- | ------------------------------------------------------------------------ |-------------------|
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
-
 | ls -la|List out the items one by one. You can see all the hidden files|
-
 |cd|Change directory.|
-
 |pwd|Print working directory (exact directory).|
-
 |mkdir|When you need to create a folder or a directory.|
-
 |rmdir|Can only be used to delete an empty directory.|
-
 |rm| rm command to delete files and directories.|
 |rm -r|delete just the directory. It deletes both the folder and the files it contains when using only the rm command.|
 |touch|The touch command is used to create a file.|
