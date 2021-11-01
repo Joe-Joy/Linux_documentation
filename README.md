@@ -1,7 +1,7 @@
 # LINUX COMMANDS DETAILS:-
 
 | command | descrtiption                                                             | command Excercise |
-| ------- | ------------------------------------------------------------------------ |
+| ------- | ------------------------------------------------------------------------ |-------------------|
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
 | ls -la|List out the items one by one. You can see all the hidden files|
 |cd|Change directory.|
