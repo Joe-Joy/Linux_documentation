@@ -1,4 +1,4 @@
-# LINUX COMMANDS DETAILS:-
+### LINUX COMMANDS DETAILS:-
 
 1.**ls** => Use the "ls" command to know what files are in the directory you are in.
 
