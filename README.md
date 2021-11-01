@@ -1,13 +1,19 @@
-# LINUX COMMANDS DETAILS:-
+## LINUX COMMANDS DETAILS:-
 
 | command | descrtiption                                                             | command Excercise |
 | ------- | ------------------------------------------------------------------------ |-------------------|
 | ls      | Use the "ls" command to know what files are in the directory you are in. |
+
 | ls -la|List out the items one by one. You can see all the hidden files|
+
 |cd|Change directory.|
+
 |pwd|Print working directory (exact directory).|
+
 |mkdir|When you need to create a folder or a directory.|
+
 |rmdir|Can only be used to delete an empty directory.|
+
 |rm| rm command to delete files and directories.|
 |rm -r|delete just the directory. It deletes both the folder and the files it contains when using only the rm command.|
 |touch|The touch command is used to create a file.|
@@ -22,7 +28,7 @@
 |nano, vi, jed|nano and vi are already installed text editors in the Linux command line. The nano command is a good text editor that denotes keywords with color and can recognize most languages|
 |sudo| A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.|
 |sudo bash|You can enter the root line |**root@HP-EliteBook-8570w:/home/crash#**|
-|su -|open up the new shell of directory. **ashli**@Hp-EliteBook-8570w:~$|
+|su -|open up the new shell of directory.| **ashli**@Hp-EliteBook-8570w:~$|
 |sudo passwd|Change in the new root password.|
 |df|Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition and their used/available space in % and in Kbs.|
 |df -m| Disk file system want it shown in megabytes.|
@@ -50,7 +56,7 @@
 |df -i|shows used and free inodes.|
 |getfacl (filename)|getfacl displays the file name, owner, the group, and the Access Control List (ACL). If a directory has a default ACL, getfacl also displays the default ACL.|
 |setfacl -m group::rwx or rw- or --- (filename) (manual ACL)| We can add ACL to these files using setfacl. ACL – Access Control List.|
-|shutdown -r (time)|With option r, system will shutdown immediately and automatically reboot. **sudo shutdown -r 3**|
+|shutdown -r (time)|With option r, system will shutdown immediately and automatically reboot. |**sudo shutdown -r 3**|
 |shutdown -P (time)|To power-off the system option P is used.|
 |sudo mount /dev/sdd1 /mnt|To mount into the disk.|
 |sudo umount /mnt|To unmount the disk.|
