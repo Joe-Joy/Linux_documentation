@@ -45,6 +45,9 @@
 |sudo apt-get update && upgrade| To update and upgrade the system;|
 |sudo apt install package_name|To install the new packeages.|
 |sudo apt-get remove package_name| To remove the packages using this commands.|
+|apt list|Let us list all software packages on Ubuntu Linux.|
+| apt list --installed|List all installed packages only.|
+|apt list -a pkgNameHere|Find a specified package.|
 |service --status-all| List all services in Ubuntu.|
 |sudo systemctl stop service_name|Stop the service.|
 |sudo systemctl start service_name|Start the service.|
