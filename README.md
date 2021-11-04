@@ -1,4 +1,4 @@
-### CPU, RAM, Hard Disk information:-------
+### CPU(processor), RAM(memory), Storage(Hard Disk) informations:-
 
 
 – To see memory status, type: **free**
