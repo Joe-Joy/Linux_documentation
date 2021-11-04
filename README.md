@@ -42,6 +42,7 @@
 |hostname|Use hostname to know your name in your host or network.|
 |hostname -I|To show IP address in your network.|
 |ip a| find the ip address.|
+|lscpu|To display information about the CPU on Linux.|
 |sudo apt-get update && upgrade| To update and upgrade the system;|
 |sudo apt install package_name|To install the new packeages.|
 |sudo apt-get remove package_name| To remove the packages using this commands.|
