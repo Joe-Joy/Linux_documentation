@@ -1,3 +1,18 @@
+### CPU, RAM, Hard Disk information:-------
+
+
+– To see memory status, type: **free**
+
+– To see more options, type: **free –help**
+
+– To see all processes running, type: **top**; 
+– Type ‘q‘ to quit top
+
+– To get processor speed and other CPU information, type: **cat /proc/cpuinfo**
+
+– To get hard disk space and information, type: **df**
+
+– To get a list of drives, type: **sudo fdisk -l**
 ## LINUX COMMANDS DETAILS:-
 
 | Commands| Descriptions                                                             | Examples |
@@ -72,18 +87,3 @@
 |:q!|Exit the vim file.|
 |:wq!|Save and exit the vim file.|
 
-### CPU, RAM, Hard Disk information:-------
-
-
-– To see memory status, type: **free**
-
-– To see more options, type: **free –help**
-
-– To see all processes running, type: **top**; 
-– Type ‘q‘ to quit top
-
-– To get processor speed and other CPU information, type: **cat /proc/cpuinfo**
-
-– To get hard disk space and information, type: **df**
-
-– To get a list of drives, type: **sudo fdisk -l**
