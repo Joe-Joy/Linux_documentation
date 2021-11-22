@@ -86,4 +86,4 @@
 |vi (filename)|vim file created.|
 |:q!|Exit the vim file.|
 |:wq!|Save and exit the vim file.|
-
+|alias -p|Listing all alias name|
